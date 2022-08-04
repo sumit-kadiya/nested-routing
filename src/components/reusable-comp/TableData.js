@@ -38,5 +38,7 @@ const TableData = ({ data }) => {
     </TableContainer>
   );
 };
-
+TableData.defaultProps = {
+  data: [],
+};
 export default TableData;

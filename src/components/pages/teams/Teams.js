@@ -2,7 +2,7 @@ import React from "react";
 
 import { Box, List, ListItem } from "@mui/material";
 import { Link, Outlet } from "react-router-dom";
-const NavStyle = { color: "inherit" };
+const NavStyle = { color: "inherit", fontSize: "24px" };
 
 const Teams = () => {
   return (

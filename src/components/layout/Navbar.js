@@ -22,7 +22,7 @@ const Navbar = () => {
               <Button color="inherit">Rankings</Button>
             </Link>
             <Link to="/about" style={NavStyle}>
-              <Button color="inherit">About Us</Button>
+              <Button color="inherit">Contact Us</Button>
             </Link>
           </Stack>
         </Toolbar>

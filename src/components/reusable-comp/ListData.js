@@ -33,4 +33,9 @@ const ListData = ({ data, name }) => {
   );
 };
 
+ListData.defaultProps = {
+  data: [],
+  name: "",
+};
+
 export default ListData;
